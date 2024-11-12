@@ -16,6 +16,7 @@ import {
   SiNextdotjs,
   SiSolidity,
   SiPostgresql,
+  SiDiscord
 } from "react-icons/si";
 import { FaDiscord } from "react-icons/fa";
 import { TbBrandGolang } from "react-icons/tb";
@@ -24,7 +25,7 @@ function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <FaDiscord />
+        <SiDiscord />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />
