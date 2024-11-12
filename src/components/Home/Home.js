@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import homeLogo from "../../Assets/home-main.svg";
 import Particle from "../Particle";
 import Home2 from "./Home2";
-import Type from "./Type";
+import TypeName from "./TypeName"; // Importiere die TypeName-Komponente
 
 function Home() {
   return (
@@ -21,13 +21,9 @@ function Home() {
               </h1>
 
               <h1 className="heading-name">
-                I'M
-                <strong className="main-name"> zGamerZz</strong>
+                I'M <TypeName />
+                <strong className="main-name"> </strong>
               </h1>
-
-              <div style={{ padding: 50, textAlign: "left" }}>
-                <Type />
-              </div>
             </Col>
 
             <Col md={5} style={{ paddingBottom: 20 }}>

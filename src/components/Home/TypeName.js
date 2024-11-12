@@ -1,16 +1,11 @@
 import React from "react";
 import Typewriter from "typewriter-effect";
 
-function Type() {
+function TypeName() {
   return (
     <Typewriter
       options={{
-        strings: [
-          "ZGamerZz",
-          "Software Developer",
-          "Discord Bot Developer",
-          "App Developer",
-        ],
+        strings: ["zGamerZz"],
         autoStart: true,
         loop: true,
         deleteSpeed: 50,
@@ -19,4 +14,4 @@ function Type() {
   );
 }
 
-export default Type;
+export default TypeName;
