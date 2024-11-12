@@ -13,15 +13,11 @@ function Footer() {
   return (
     <Container fluid className="footer">
       <Row>
+        <Col></Col>
         <Col md="4" className="footer-copywright">
-          <h3>Designed and Developed by zGamerZz</h3>
+          <h3>Thanks for beeing here! </h3>
         </Col>
-        <Col md="4" className="footer-copywright">
-          <h3>Copyright © {year} zGamerZz </h3>
-        </Col>
-        <Col md="4" className="footer-copywright">
-          <h3>Credits: Soumyajit Behera</h3>
-        </Col>
+        <Col> </Col>
       </Row>
     </Container>
   );

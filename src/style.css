@@ -150,6 +150,17 @@ button:focus {
     display: none !important;
   }
 }
+
+.brand-text {
+  font-size: 2rem; /* Anpassung der Schriftgröße */
+  font-weight: bold; /* Fettgedruckte Schrift */
+  color: #d17eff; /* Farbwert für lila Text */
+  font-family: 'Arial', sans-serif; /* Schriftart (anpassbar nach Bedarf) */
+  text-transform: capitalize; /* Buchstabenanpassung, falls erforderlich */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Optionaler Schlagschatten */
+  text-transform: none;
+}
+
 .navbar-brand {
   color: rgb(250, 250, 250) !important;
 }
