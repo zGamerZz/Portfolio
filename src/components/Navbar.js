@@ -69,6 +69,18 @@ function NavBar() {
                 <AiOutlineUser style={{ marginBottom: "2px" }} /> About
               </Nav.Link>
             </Nav.Item>
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/project"
+                onClick={() => updateExpanded(false)}
+              >
+                <AiOutlineFundProjectionScreen
+                  style={{ marginBottom: "2px" }}
+                />{" "}
+                Projects
+              </Nav.Link>
+            </Nav.Item>
             <Nav.Item className="fork-btn">
               <Button
                 href="https://github.com/zGamerZz/Portfolio"
